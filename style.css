@@ -39,10 +39,10 @@
 	margin: 4px 0px;
 }
 img{
-	bottom: 5px;
+	
 	position: relative;
       width: 40px;
-	  height: 40px;
+	  height: 30px;
 }
 .gmail-name{
 	font-size: 30px;
@@ -87,6 +87,7 @@ img{
 .para-2{
 	color: var(--para);
 	padding: 11px 5px;
+	font-size: 15px;
 	
 
 }
@@ -107,6 +108,8 @@ img{
 }
 .para-padding{
 	padding:11px 0px;
+	top: 5px;
+	position: relative;
 }
 .para-left{
 	margin: 0px 10px;
@@ -218,6 +221,7 @@ left: 45px;
 	  p{
 		color: black;
 		font-weight: 600;
+		font-size: 15px;
 	  }
 	  .inbox{
 		color: rgb(196, 38, 38);
