@@ -1,0 +1,251 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+:root{
+	--heading: rgb(0 10 45);
+	--para: #777;
+	--para-tint: #e4e4e4;
+	--white: #ffffff;
+	--helper: #8490ff;
+	--helper-tint: #f3f4ff;
+	--bg: rgb(249 249 255);
+	--gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+	--gradientSupport: -webkit-linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+	--shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+	--shadowSupport: 0 2rem 2rem 0 rgb(132 144 255 / 30%)
+}
+
+/* body{
+
+	border: 1px solid;
+	height: 40rem;
+	width: 100%;
+} */
+
+.header {
+	display: flex;
+	justify-content:space-evenly;
+	margin: 20px 0;
+
+}
+
+.menu {
+	width: 20px;
+	height: 2px;
+	background-color:var(--para);
+	margin: 4px 0px;
+}
+img{
+	bottom: 5px;
+	position: relative;
+      width: 40px;
+	  height: 40px;
+}
+.gmail-name{
+	font-size: 30px;
+	color:var(--para);
+    margin: 0px 10px;
+}
+.logo {
+	display: flex;
+	padding: 0 5px;
+	margin-top: 10px;
+
+}
+.sarch-box input{
+	padding: .9rem 19rem .9rem .9rem;
+	background-color: var(--para-tint);
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	color: var(--para);
+
+}
+.navbar-icon{
+	padding: 5px 10px;
+	color: var(--para);
+}
+.header-right{
+ display: flex;
+ margin-top: 5px;
+
+
+}
+.para{
+	color: var(--para);
+	padding: 0 10px;
+	margin: 19px 0px;
+	/* position: relative;
+	top: 30px; */
+}
+.para a{
+	padding: 0% 5px;
+}
+.para-2{
+	color: var(--para);
+	padding: 11px 5px;
+	
+
+}
+.para-3{
+	display: flex;
+	color: var(--para);
+	right: 90px;
+	position: relative;
+
+}
+.two-line{
+	left:50px;
+	bottom: 7px;
+}
+.para-4{
+	position: relative;
+	left: 10rem;
+}
+.para-padding{
+	padding:11px 0px;
+}
+.para-left{
+	margin: 0px 10px;
+}
+
+/* section-2 start */
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid var(--para);
+
+}
+
+	.right{
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	  }
+
+	  .left {
+		transform: rotate(135deg);
+		-webkit-transform: rotate(135deg);
+	  }
+	  .arrow{
+		border: solid var(--para);
+		border-width: 0 3px 3px 0;
+		display: inline-block;
+		padding: 3px;
+
+	  }
+.three-icon{
+position: relative;
+left: 45px;
+}
+.three-icon i{
+	position: relative;
+	
+	padding: 8px;
+	}
+	  .section-2{
+		display: flex;
+		justify-content: space-evenly;
+		position: relative;
+		bottom: 20px;
+		border: 1px solid var(--para-tint);
+
+	  }
+	  .btn{
+		display: inline-block;
+		border-radius: 45px;
+		padding: 20px;
+		margin: 0%;
+		font-size: 15px;
+		background-color: white;
+		border: none;
+		box-shadow: 1px 1px 1px 4px var(--para-tint);
+		color: var(--para);
+		cursor: pointer;
+		position: relative;
+		right: 90px;
+		background-color: #fcf7f7;
+
+	  }
+	  .plus{
+		position: relative;
+		color: var(--para);
+	   top: 3px;
+		font-size: 25px;
+		font-weight: 400;
+	  }
+	  .col-2{
+		display: flex;
+		position: relative;
+		right: 10rem;
+		align-items: center;
+	  }
+	  .col-3{
+		align-items: center;
+		display: flex;
+		left: 123px;
+		position: relative;
+		
+	  }
+
+	  a{
+		color:var(--para)
+	  } 
+	  .section-3{
+		display:flex ;
+		justify-content: space-evenly;
+	  }
+	  .middle-2-section{
+		position: relative;
+		top: 27px;
+	  }
+	  .time{
+		position: relative;
+		top: 43px;
+		border-right: 2px solid var(--para-tint);
+	  }
+	  .middle-section{
+		position: relative;
+		left: 60px;
+		top: 10px;
+		
+	  }
+	  p{
+		color: black;
+		font-weight: 600;
+	  }
+	  .inbox{
+		color: rgb(196, 38, 38);
+		background-color:rgb(248, 215, 215);
+		padding: 5px;
+		padding-right: 50px;
+		margin-left: 7px;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+		
+	  }
+	  .inbox a{
+		color: rgb(196, 38, 38);
+
+		
+	  }
+	  .primary{
+		background-color: var(--para-tint);
+		border:2px solid red;
+		border-left:none ;
+		border-top: none;
+		border-right: none;
+	  } 
+	  .primary i {
+		color: red;
+	  }
+	  .primary a {
+		color: red;
+		padding: 0% 8px;
+	  }
+	
